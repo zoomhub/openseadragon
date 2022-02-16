@@ -132,6 +132,18 @@ $.Button = function( options ) {
         this.imgHover     = $.makeTransparentImage( this.srcHover );
         this.imgDown      = $.makeTransparentImage( this.srcDown );
 
+        this.imgRest.width  =
+        this.imgGroup.width =
+        this.imgHover.width =
+        this.imgDown.width  =
+            30;
+
+        this.imgRest.height  =
+        this.imgGroup.height =
+        this.imgHover.height =
+        this.imgDown.height  =
+            34;
+
         this.imgRest.alt  =
         this.imgGroup.alt =
         this.imgHover.alt =

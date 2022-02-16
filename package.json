@@ -1,6 +1,6 @@
 {
   "name": "openseadragon",
-  "version": "3.0.0",
+  "version": "3.0.0-zoomhub",
   "description": "Provides a smooth, zoomable user interface for HTML/Javascript.",
   "keywords": [
     "image",
