@@ -156,12 +156,12 @@ $.Button = function( options ) {
         this.imgGroup.style.top =
         this.imgHover.style.top =
         this.imgDown.style.top  =
-            "0px";
+            "0";
 
         this.imgGroup.style.left =
         this.imgHover.style.left =
         this.imgDown.style.left  =
-            "0px";
+            "0";
 
         this.imgHover.style.visibility =
         this.imgDown.style.visibility  =

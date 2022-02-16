@@ -1880,8 +1880,8 @@ function OpenSeadragon( options ){
 
             style.background = "transparent none";
             style.border     = "none";
-            style.margin     = "0px";
-            style.padding    = "0px";
+            style.margin     = "0";
+            style.padding    = "0";
             style.position   = "static";
 
             return element;

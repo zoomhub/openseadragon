@@ -119,12 +119,12 @@ $.Control = function ( element, options, container ) {
         this.wrapper.style.left  = typeof (options.left) === "number" ? (options.left + 'px') : options.left;
         this.wrapper.style.height = typeof (options.height) === "number" ? (options.height + 'px') : options.height;
         this.wrapper.style.width  = typeof (options.width) === "number" ? (options.width + 'px') : options.width;
-        this.wrapper.style.margin = "0px";
-        this.wrapper.style.padding = "0px";
+        this.wrapper.style.margin = "0";
+        this.wrapper.style.padding = "0";
 
         this.element.style.position = "relative";
-        this.element.style.top = "0px";
-        this.element.style.left = "0px";
+        this.element.style.top = "0";
+        this.element.style.left = "0";
         this.element.style.height = "100%";
         this.element.style.width = "100%";
     } else {
